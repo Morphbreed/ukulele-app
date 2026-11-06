@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ukulele Noten-Drill</title>
+  <script type="module" crossorigin src="./assets/index-jFTp5D45.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-BqjuhHLz.css">
+</head>
+<body>
+  <main>
+    <h1>Ukulele Noten-Drill</h1>
+
+    <section class="card">
+      <div id="staff" class="staff"></div>
+      <div class="note-label">
+        <span id="note-name" class="note-name"></span>
+        <span id="note-octave" class="note-octave"></span>
+      </div>
+      <p id="hint" class="hint" hidden></p>
+    </section>
+
+    <p id="feedback" class="feedback neutral">Drück auf Start und erlaube den Mikrofonzugriff.</p>
+
+    <div class="buttons">
+      <button id="start" class="primary">Start</button>
+      <button id="skip" hidden>Überspringen</button>
+      <button id="hint-toggle">Tipp zeigen</button>
+    </div>
+
+    <p class="score">
+      Richtig: <strong id="score-correct">0</strong> ·
+      Falsch: <strong id="score-wrong">0</strong>
+    </p>
+
+    <p class="detected">Erkannt: <span id="detected">–</span></p>
+  </main>
+</body>
+</html>
